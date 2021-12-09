@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://media.istockphoto.com/videos/abstract-background-with-3d-rings-and-rotating-parts-clean-and-modern-video-id1248225100?b=1&k=20&m=1248225100&s=640x640&h=wnwajmerRHYeYf3JDAX83QTJhugkj8VYh0G7YuBWjNo=");
+    background-size: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+/*cabeçalho*/
+.cabeca{
+    text-align: center;
+}
+
+/*Main*/
+main{
+    height: 90vh;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.um{
+    padding: 20px;
+}
+
+.dois{
+    padding: 20px;
+}
+
+.tres{
+    padding: 20px;
+}
+
+.quatro{
+    padding: 20px;
+}
+
+.cinco{
+    padding: 20px;
+}
+
+.seis{
+    padding: 20px
+}
+
+/*footer*/
+.fute{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

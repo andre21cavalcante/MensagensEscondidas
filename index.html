@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel= "stylesheet" href= "style.css">
+    <title>Mensagens escondidas</title>
+</head>
+<body>
+    <header class= "cabeca">
+        <h1>Mensagens escondidas</h1>
+        <a href= https://github.com/andre21cavalcante><b>Github</b></a>
+    </header>
+    <main>
+            <fieldset div= "form">
+                <div class= "um">
+                    <label for= "texto">Digite um texto</label> 
+                    <input type= "text" name= "texto" class= "recebe" required >   
+                </div>
+                <div>
+                    <label for= "texto">Digite a quantidade de passos</label> 
+                    <input type= "text" name= "texto" class= "rotacao" required > 
+                </div>
+                <div class= "dois">
+                    <label for= "cod">Escolha uma opção</label>
+                    <select id= "opcao" name= "opcaolist" form= "opcaoform">
+                        <option value= "cifra" id= "cifrar">Cifra de César</option>
+                        <option value= "base" id= "basemeia">Base64</option>
+                    </select>
+                </div>
+                <div class= "tres">
+                    <label for= "codificar" id="codificador">codificar</label>
+                    <input type= "radio" name="codificar" class= "codificar" value= "codificar">
+                    <label for= "decodificar" id="decodificar">Decodificar</label>
+                    <input type= "radio" name="codificar" class= "decodificar" value= "decodificar">
+                </div>
+               
+                <div class= "cinco">
+                    <button type="submit" onclick= "btn()">Enviar</button>
+                </div>
+                <div class= "seis">
+                    <label for= "chave" >Resultado</label> 
+                    <textarea class="resultado" disabled cols="30" rows="10" ></textarea>
+                </div>
+            </fieldset>
+    </main>
+
+    <footer class="fute"><b>Desenvolvido por André Cavalcante<b></footer>
+    <script src= "script.js"></script>
+</body>
+</html>
